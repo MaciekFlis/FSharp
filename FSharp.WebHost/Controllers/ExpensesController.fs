@@ -10,5 +10,5 @@ open Microsoft.AspNetCore.Mvc
 type ExpensesController () =
     inherit ApiController()
 
-    member this.Index() =
+    member this.Get() =
         "none"
